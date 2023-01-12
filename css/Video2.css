@@ -8,8 +8,8 @@ video{
     top: 25%;
     left: 50%;
     transform: translate(-50%,-25%);
-    max-width: 80%;
-    max-height: 80%;
+    width: 80%;
+    height: 80%;
     margin: 0;
 }
 
