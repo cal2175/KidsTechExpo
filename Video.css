@@ -21,7 +21,7 @@ button{
 .button-container2{
 
     position: absolute;
-    top: 1%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%,-1%);
 }
