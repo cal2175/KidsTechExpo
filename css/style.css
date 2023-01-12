@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/背景.png");
+    background-image: url("images/背景.png");
     /* backgroundの背景画像入れ替え */
     background-size: cover;
     background-repeat: no-repeat;
