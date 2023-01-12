@@ -21,6 +21,6 @@ button{
 
     position: absolute;
     top: 1%;
-    left: 91%;
-    transform: translate(-1%,-1%);
+    left: 50%;
+    transform: translate(-50%,-1%);
 }
