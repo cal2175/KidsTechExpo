@@ -5,6 +5,10 @@
 
 
 video{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
     max-width: 100%;
     max-height: 100%;
     margin: 0;
@@ -12,16 +16,30 @@ video{
 
 button{
 
-    width: 13em;
-    height: 3em;
-    font-size: 50;
+    /* color: ; */
+    /* background: ; */
+    width: 15em;
+    height: 5em;
+    font-size: 16px;
     font-weight: 900;
 }
 
 .button-container2{
+    
 
+    
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%,-1%);
 }
+
+.text-Box{
+
+    /* color: ; */
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
