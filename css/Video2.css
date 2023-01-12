@@ -25,9 +25,9 @@ button{
 
 .button-container2{
     position: absolute;
-    top: 96%;
+    top: 85%;
     left: 50%;
-    transform: translate(-50%,-96%);
+    transform: translate(-50%,-85%);
 }
 
 .text-Box{
