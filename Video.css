@@ -33,9 +33,9 @@ button{
 .text-Box{
 
     position: absolute;
-    top: 1%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%,-1%);
+    transform: translate(-50%,0);
 
     /* color: ; */
     font-size: 30px;
