@@ -1,7 +1,8 @@
 body{
-    background-image: url("images/背景2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-image: url("images/背景2.png"); */
+    background-color: antiquewhite;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
 }
 
 
