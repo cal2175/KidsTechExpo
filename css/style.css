@@ -1,25 +1,14 @@
 body{
-    /* background-image: url("images/背景2.png"); */
+    background-image: url("../images/main.JPEG");
     background-color: antiquewhite;
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-}
-
-
-/* button{
-
-    width: 13em;
-    height: 3em;
-    font-weight: 900;
-    font-size: 50px;
-
-} */
-
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
 
 .button-container{
 
     position: absolute;
     top: 60%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%,-50%);
 }
