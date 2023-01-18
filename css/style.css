@@ -24,6 +24,7 @@ body{
     display: inline-block;
     position: absolute;
     top: 60%;
+    /* ↑or55 */
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
     transition: .1s transform;
