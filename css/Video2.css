@@ -1,46 +1,57 @@
-body{
-    background-image: url("/images/movie.JPEG");
+* {
+    margin: 0;
+    padding: 0;
 }
 
+body{
+    background-color: rgb(251, 236, 194);
+}
+
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+
+    background-image: url("../images/bgmv.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
 
 video{
     position: absolute;
-    top: 25%;
+    width: 104vh;
+    height: 60vh;
+    top: 32%;
     left: 50%;
     transform: translate(-50%,-25%);
-    max-width: 80%;
-    max-height: 80%;
-    margin: 0;
+    /* margin: 0; */
+    z-index: 1;
+    
 }
 
-button{
-
-    /* color: ; */
-    /* background: ; */
-    width: 15em;
-    height: 5em;
-    font-size: 16px;
-    font-weight: 900;
-}
-
-.button-container2{
+.btn__back {
+    width: 60vh;
+    display: inline-block;
     position: absolute;
-    top: 85%;
+    top: 88%;
     left: 50%;
-    transform: translate(-50%,-85%);
+    transform: translate3d(-50%, -50%, 0);
+    transition: .1s transform;
 }
 
-.text-Box{
-
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%,0);
-
-    /* color: ; */
-    font-size: 30px;
-    font-weight: 900;
-    /* text-align: center; */
-
+.btn__back:hover {
+    transform: translate3d(-50%, -50%, 0) scale(1.1);
 }
+
+.btn__back img {
+    width: 100%;
+}
+
+
+
+
 
