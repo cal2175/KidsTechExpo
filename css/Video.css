@@ -43,7 +43,7 @@ video{
     transition: .1s transform;
 }
 
-.btn__qr:hover {
+.btn__back:hover {
     transform: translate3d(-50%, -50%, 0) scale(1.1);
 }
 
