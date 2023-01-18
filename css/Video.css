@@ -34,7 +34,7 @@ video{
 }
 
 .btn__back {
-    width: 60vh;
+    width: 40vh;
     display: inline-block;
     position: absolute;
     top: 88%;
@@ -48,8 +48,10 @@ video{
 }
 
 .btn__back img {
-    width: 100%;
+    width: 110%;
+    /* height: 100%; */
 }
+
 
 
 
