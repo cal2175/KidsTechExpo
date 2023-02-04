@@ -44,7 +44,7 @@ body{
     position: absolute;
     top: 55%;
     /* ↑or55 */
-    left: 57.5%;
+    left: 56.5%;
     transform: translate3d(-50%, -50%, 0);
     transition: .1s transform;
 }
@@ -64,7 +64,7 @@ body{
     position: absolute;
     top: 55%;
     /* ↑or55 */
-    left: 77%;
+    left: 74.5%;
     transform: translate3d(-50%, -50%, 0);
     transition: .1s transform;
 }
