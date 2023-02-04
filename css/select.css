@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(251, 236, 194);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+
+    background-image: url("../images/bg2.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.btn__C {
+    width: 60vh;
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    /* ↑or55 */
+    left:38%;
+    transform: translate3d(-50%, -50%, 0);
+    transition: .1s transform;
+}
+
+.btn__C:hover {
+    transform: translate3d(-50%, -50%, 0) scale(1.1);
+}
+
+.btn__C img {
+    width: 60%;
+}
+
+.btn__T {
+    width: 60vh;
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    /* ↑or55 */
+    left: 57.5%;
+    transform: translate3d(-50%, -50%, 0);
+    transition: .1s transform;
+}
+
+.btn__T:hover {
+    transform: translate3d(-50%, -50%, 0) scale(1.1);
+}
+
+.btn__T img {
+    width: 60%;
+}
+
+
+.btn__S {
+    width: 60vh;
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    /* ↑or55 */
+    left: 77%;
+    transform: translate3d(-50%, -50%, 0);
+    transition: .1s transform;
+}
+
+.btn__S:hover {
+    transform: translate3d(-50%, -50%, 0) scale(1.1);
+}
+
+.btn__S img {
+    width: 60%;
+}
